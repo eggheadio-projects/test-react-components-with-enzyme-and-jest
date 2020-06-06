@@ -5,7 +5,7 @@
 ## Searching for Nodes
 We can use built-in methods to search for certain nodes in our Shallow Rendered Component, and combine these methods with Jest assertions to make sure everything renders correctly.
 
-In App.test.js, we **define a search for a node on our Shallow Rendered Component with the .find() method**, and **wrap that in a Jest assertion, expect().toBe()**. In this case, we *search for a p element and expect it to be a length of 1*:
+In App.test.js, we **define a search for a node on our Shallow Rendered Component with the .find() method**, and **wrap that in a Jest assertion, expect().toBe()**. In this case, we **search for a p element** and **expect it to be a length of 1**:
 ```js
 describe('<App />', () => {
   const wrapper = shallow(<App />)
@@ -38,7 +38,7 @@ describe('<App />', () => {
 ```
 Looking back at our terminal, we should see that the test passes. *To see this test fail, we can change '.App-intro' selector within the .find() method to something else*.
 
-Now we define a **search for a ul element** and **expect 3 child elements**. We can also change 'should contain 1 p element' to something more fitting, like 'should contain a ul element with 3 children li elements'.
+Now we define a **search for a ul element** and **expect 3 child elements**. *We can also change 'should contain 1 p element' to something more fitting, like 'should contain a ul element with 3 children li elements'*.
 ```js
 describe('<App />', () => {
   const wrapper = shallow(<App />)
