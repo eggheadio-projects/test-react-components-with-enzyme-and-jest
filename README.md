@@ -1,7 +1,5 @@
 ## Table of Contents
 
-- [00-Intro and Welcome](00-intro-and-welcome.md)
-
 - [01-Course Overview: Testing React Components with Enzyme and Jest](01-course-overview-testing-react-components-with-enzyme-and-jest.md)
 
 - [02-Install Enzyme and Configure Jest](02-install-enzyme-and-configure-jest.md)
