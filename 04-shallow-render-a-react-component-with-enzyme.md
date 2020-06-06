@@ -82,6 +82,6 @@ const wrapper = shallow(<App />, {context: {}, disableLifecycleMethods: bool})
 ```
 The context property allows us to provide context to our rendered component, if that is important in our test.
 
-The disableLifecycleMethods allows us to tell Enzyme whether to ignore calling componentDidMount on our component, and ignore calling componentDidUpdate on our component after setProps and setContexts is used.
+The disableLifecycleMethods allows us to tell Enzyme whether to ignore calling componentDidMount on our component, and ignore calling componentDidUpdate on our component after setProps and setContexts is used. This is set to false by default, but can be set to true through these configurations.
 ## Resources
 - [Shallow Rendering in Enzyme](https://enzymejs.github.io/enzyme/docs/api/shallow.html)
