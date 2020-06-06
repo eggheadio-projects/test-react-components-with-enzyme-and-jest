@@ -10,7 +10,7 @@ Start by importing shallow from 'enzyme'. In App.test.js:
 ```javascript
 import { configure, shallow } from 'enzyme'
 ```
-Now we define our shallow render in App.test.js. Make sure to remove the default Create React App code:
+Now we describe our shallow render in App.test.js. Make sure to remove the default Create React App code:
 ```javascript
 // ...
 configure({ adapter: new Adapter() })
