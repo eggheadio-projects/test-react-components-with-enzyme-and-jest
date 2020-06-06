@@ -36,7 +36,7 @@ describe('<App />', () => {
   })
 })
 ```
-Looking back at our terminal, we should see that the test passes. To see this test fail, we can change '.App-intro' within the .find() method to something else.
+Looking back at our terminal, we should see that the test passes. To see this test fail, we can change '.App-intro' selector within the .find() method to something else.
 
 Now we define a search for a ul element and expect 3 child elements. We can also change 'should contain 1 p element' to something more fitting, like 'should contain a ul element with 3 children li elements'.
 ```js
