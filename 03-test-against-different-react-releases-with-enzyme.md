@@ -17,7 +17,7 @@ import Adapter from 'enzyme-adapter-react-16'
 configure({ adapter: new Adapter() })
 // ...
 ```
-More information about enzyme-adapter-react and what package to use with specific versions of React can be found in the [resources](#resources).
+More information about the enzyme-adapter-react-16 package and what package to use with specific versions of React can be found in the [resources](#resources).
 
 ## Resources
 -[enzyme-adapter-react-16 documentation](https://www.npmjs.com/package/enzyme-adapter-react-16)
