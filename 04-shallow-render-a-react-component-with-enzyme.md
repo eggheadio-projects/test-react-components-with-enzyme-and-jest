@@ -84,4 +84,5 @@ The context property allows us to provide context to our rendered component, if 
 
 The disableLifecycleMethods allows us to tell Enzyme whether to ignore calling componentDidMount on our component, and ignore calling componentDidUpdate on our component after setProps and setContexts is used. This is set to false by default, but can be set to true through these configurations.
 ## Resources
+- [Lesson 4 Code](https://github.com/ParkerGits/react-enzyme-jest/tree/03-shallow-render-a-react-component-with-enzyme)
 - [Shallow Rendering in Enzyme](https://enzymejs.github.io/enzyme/docs/api/shallow.html)

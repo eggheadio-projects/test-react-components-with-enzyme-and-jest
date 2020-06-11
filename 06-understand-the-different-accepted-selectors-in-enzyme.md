@@ -33,12 +33,13 @@ expect(wrapper.find('[href="tyler ~ .clark"]').text()).toBe('Welcome to React')
 ## 2. Prop Selectors
 Now we're gonna take a look at prop selectors.
 
-In app.js, we create a Title component that returns a div with a text prop:
+In app.js, we create a Title component that returns a div with a text prop, then we add it to our App component:
 ```js
+const Test = () => <div>Testing</div>
+
+// Title Component:
 const Title = ({text}) => <div>{text}</div>
-```
-Then, we add our Title component to our App component:
-```js
+
 function App() {
   return (
     <div className="App">
@@ -54,7 +55,7 @@ function App() {
         <p className="App-intro">
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        // Add the Title component
+        // Add title component to App component:
         <Title text="Some title" />
         <a
           className="App-link"
@@ -94,4 +95,5 @@ expect(wrapper.find({alt: 'logo'}).text()).toBe('Welcome to React')
 **Undefined properties are not allowed in the object property selector, and will cause error.**
 
 ## Resources
+- [Lesson 6 Code](https://github.com/ParkerGits/react-enzyme-jest/tree/05-understand-the-different-accepted-selectors-in-enzyme)
 - [Enzyme Selectors](https://enzymejs.github.io/enzyme/docs/api/selector.html)

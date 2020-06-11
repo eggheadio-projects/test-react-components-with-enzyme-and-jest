@@ -19,6 +19,7 @@ npm install --save-dev enzyme
 ```
 That's it! We don't need to make a **.babelrc** file, nor do we need to edit our test script in **package.json**.
 ## Resources
+- [Lesson 2 Code](https://github.com/ParkerGits/react-enzyme-jest/tree/01-install-enzyme-and-configure-jest)
 - [Using Jest with Create React App Issue](https://github.com/facebook/create-react-app/issues/2564)
 - [Create React App](https://reactjs.org/docs/create-a-new-react-app.html)
 - [Using Jest with Webpack](https://jestjs.io/docs/en/webpack)

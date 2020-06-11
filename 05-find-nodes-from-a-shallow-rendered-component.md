@@ -124,6 +124,7 @@ describe('<App />', () => {
 ```
 Returning to our terminal in watch mode, we should see that the test passes.
 ## Resources
+- [Lesson 5 Code](https://github.com/ParkerGits/react-enzyme-jest/tree/04-find-nodes-from-a-shallow-rendered-component)
 - [Enzyme .find(selector)](https://enzymejs.github.io/enzyme/docs/api/ReactWrapper/find.html)
 - [Jest Assertions - Expect](https://jestjs.io/docs/en/expect)
 - [Shallow Rendering in Enzyme](https://enzymejs.github.io/enzyme/docs/api/shallow.html)
