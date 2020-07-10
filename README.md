@@ -1,3 +1,5 @@
+<h1 align="center"><a href="https://github.com/eggheadio/notes">DEPRECATED ⚠️ This notes repo has been moved to eggheadio/notes!</a></h1>
+
 # [Test React Components with Enzyme and Jest](https://egghead.io/courses/test-react-components-with-enzyme-and-jest)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
